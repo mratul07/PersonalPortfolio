@@ -4,7 +4,7 @@ function App() {
   const [otp, setOtp] = useState("");
 
   const generateOtp = () => {
-    let vaue = "0123456789";
+    let value = "0123456789";
     let generatedOtp = "";
 
     for (let i = 0; i < 4; i++) {
